@@ -1,0 +1,97 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #dee2e6;
+}
+
+.logoSection {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: bold;
+  color: #000;
+}
+.menuIcon {
+  display: none;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.searchIcon {
+  display: none;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.userSection {
+  display: flex;
+  align-items: center;
+}
+
+.flag {
+  width: 25px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.notification {
+  position: relative;
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+.FaRegBell {
+  font-size: 25px;
+  color: #000;
+}
+
+.badge {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background-color: #f44336;
+  color: #fff;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 12px;
+}
+
+.userName {
+  margin-right: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+.avatar {
+  font-size: 25px;
+  height: auto;
+  margin-right: 15px;
+}
+@media (max-width: 992px) {
+  .menuIcon {
+    display: block;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: blue;
+  }
+  .searchIcon {
+    display: block;
+    margin-right: 20px;
+    color: blue;
+  }
+}
+@media (max-width: 576px) {
+  .title {
+    display: none;
+  }
+
+  .userName {
+    display: none;
+  }
+}
