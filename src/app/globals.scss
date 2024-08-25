@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Sidebar */
+.sidebar{
+  &__item{
+    @apply flex items-center p-4 text-base font-medium text-gray-400 hover:bg-blue-100 rounded-lg;
+  }
+  &__icon{
+    @apply mr-3 text-xl;
+  }
+  &__title{
+    @apply text-lg;
+
+  }
+  &__section{
+    &--auth{
+      @apply text-gray-400;
+    }
+    
+    &--title{
+      @apply text-gray-600;
+    }
+  }
+}
+  
+/* End Sidebar */
