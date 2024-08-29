@@ -1,10 +1,7 @@
 "use client";
-
-import SigninLayout from "./signin-layout";
 import React, { useEffect, useState } from "react";
 export default function Signin() {
   const [mounted, setMounted] = useState(false);
-
   useEffect(() => {
     setMounted(true);
   }, []);
@@ -13,7 +10,6 @@ export default function Signin() {
     return null;
   }
   return (
-    <SigninLayout>
        <div className="min-h-screen flex items-center justify-center bg-gray-100">
             <div className="bg-white p-8 rounded-lg shadow-lg max-w-xl w-full">
                 <h2 className="text-2xl font-bold text-center mb-5">Đăng Nhập</h2>
@@ -51,6 +47,5 @@ export default function Signin() {
                 </form>
             </div>
         </div>
-    </SigninLayout>
   );
 }

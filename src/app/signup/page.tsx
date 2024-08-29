@@ -1,6 +1,4 @@
 "use client";
-
-import SignupLayout from "./signup-layout";
 import React, { useEffect, useState } from "react";
 export default function Signin() {
   const [mounted, setMounted] = useState(false);
@@ -13,10 +11,9 @@ export default function Signin() {
     return null;
   }
   return (
-    <SignupLayout>
       <div className="min-h-screen flex items-center justify-center bg-gray-100">
         <div className="bg-white p-8 rounded-lg shadow-lg max-w-xl w-full mb-6">
-          <h2 className="text-[30px] font-bold text-center mb-8">
+          <h2 className="text-3xl font-bold text-center mb-8">
             Đăng Ký
           </h2>
           <form>
@@ -44,6 +41,5 @@ export default function Signin() {
           </form>
         </div>
       </div>
-    </SignupLayout>
   );
 }

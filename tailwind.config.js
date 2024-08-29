@@ -13,18 +13,7 @@ module.exports = {
       lg: '1024px',
       xl: '1280px',
     },
-
-    fontFamily: {
-      sans: ['Graphik', 'sans-serif'],
-      serif: ['Merriweather', 'serif'],
-    },
-   
   },
-  plugins: [
-    'postcss-import',
-    'tailwindcss',
-    'autoprefixer',
-  ],
 }
 
 }
