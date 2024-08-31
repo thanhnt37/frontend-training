@@ -13,10 +13,10 @@ import Link from "next/link";
 const Sidebar = ({ isOpen }: { isOpen: boolean }) => {
   return (
     <div
-      className={`min-h-screen w-80 bg-white border-t-2 border-r-2 p-4 transform ${
-        isOpen ? "translate-x-0" : "-translate-x-full lg:translate-x-0"
-      } transition-transform duration-300 ease-in-out fixed lg:relative z-20`}
-    >
+    className={`min-h-screen w-80 bg-white border-t-2 border-r-2 p-4 transform ${
+      isOpen ? "translate-x-0" : "-translate-x-full lg:translate-x-0"
+    } transition-transform duration-300 ease-in-out fixed lg:relative z-20 overflow-y-auto max-h-screen`}
+  >
       <div className="p-4">
         <ul className="sidebar">
           <li className=" mb-3 mt-5">
