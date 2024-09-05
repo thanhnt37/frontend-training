@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    
+      "build:css": "npx tailwindcss -c tailwind.config.ts -o ./dist/output.css",
+      "watch:css": "npx tailwindcss -c tailwind.config.ts -o ./dist/output.css --watch",
     "start": "next start",
     "lint": "next lint"
   },
