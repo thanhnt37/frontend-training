@@ -1,6 +1,5 @@
 import React from 'react';
-import Dashboard from"../Pages/dashboard"
-
+import Dashboard from"./dashboard/page"
 export default function Page() {
   return (
       <Dashboard />
