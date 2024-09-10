@@ -1,7 +1,7 @@
 "use client";
 import { Inter } from "next/font/google";
-import Header from "../Component/Header/header";
-import Sidebar from "../Component/Sidebar/sidebar";
+import Header from "../components/Header/header";
+import Sidebar from "../components/Sidebar/sidebar";
 import React, { useState} from "react";
 import "./globals.scss";
 
